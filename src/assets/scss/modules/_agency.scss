@@ -1,0 +1,26 @@
+.agency-list {
+  width: 100%;
+  margin-top: 25px;
+  background-color: white;
+
+  @media (min-width: $screen-md) {
+    height: 51vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 5px;
+  }
+}
+
+.agency-tile {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#agencies-slide .share-btn
+{
+  margin-top: 0;
+}

@@ -1,0 +1,106 @@
+
+.support-header{
+    position: relative;
+}
+
+
+/* Header CTA button */
+
+.cta-btn{
+    position: absolute;
+    top: 24px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    text-decoration: none;
+    color: $brand-pink;
+    height:48px;
+    background-color:$white;
+    padding:0 20px;
+}
+
+.cta-btn:link, .cta-btn:visited, .cta-btn:active {
+    text-decoration: none;
+    color: $brand-pink;
+}
+
+.cta-btn:hover{
+    border:1px solid$white;
+    color:$white;
+    text-decoration: none;
+    background-color:$brand-pink;
+}
+
+.cta-btn img{
+    height: 24px;
+    width:24px;
+    margin-left:15px;
+}
+
+
+/* Logo lock-up header */
+.lock-up{
+    position: relative;
+    margin: 0 auto;
+    background: url('../img/logo-lock-up-mobile.png') 50% no-repeat ;
+    height: 60px;
+    width: 280px;
+
+    /* Desktop */
+    @media (min-width: $screen-xs){
+    position: relative;
+    background: url('../img/logo-lock-up.png') 50% no-repeat ;
+    height:100px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+}
+
+.supporters-txt, .agencies-txt{
+    position: absolute;
+    top:10px;
+    font-size:14px;
+
+    /* Desktop */
+    @media (min-width: $screen-xs){
+        font-size: 20px;
+        top:27px;
+    }
+}
+
+.supporters-txt{
+    left:11px;
+
+    span::after{
+        content: " Legends";
+    }
+
+    /* Desktop */
+    @media (min-width: $screen-xs){
+        font-size: 20px;
+        top:27px;
+        left:15px;   
+
+        span:after{
+            content: " Supporters";
+        }
+    }
+
+}
+
+.agencies-txt{
+    right:13px;
+
+    /* Desktop */
+        @media (min-width: $screen-xs){
+            right: 30px;
+        }
+
+}
+
+.slide-landing .cta-btn{
+    top: 0;
+}

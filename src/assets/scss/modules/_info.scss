@@ -1,0 +1,120 @@
+.slide-info {
+  background-color: $brand-yellow;
+  border: 12px solid $brand-blue;
+  padding-top: 25px;
+  height: 100%;
+  padding-bottom: 30px;
+  @media (min-width: $screen-sm) {
+    padding-bottom: 0;
+  }
+  .share-btn {
+    margin-top: 0;
+  }
+}
+
+
+/* Scrollbox */
+
+.scrollbox-header {
+  margin-bottom: 40px;
+}
+
+.extend-scrollbox-length {
+  height: 0;
+  @media (min-width: $screen-sm) {
+    height: 150px;
+  }
+}
+
+.scrollbox {
+  padding-right: 20px;
+  
+  @media (min-width: $screen-sm) {
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  h4 {
+    margin: 24px 0;
+  }
+}
+
+.percentage {
+  position: relative;
+  margin-bottom: 100px;
+  @media(min-width: $screen-xs) {
+    margin-bottom: 20px;
+  }
+  @media(min-width: $screen-sm) {
+    margin-bottom: 40px;
+  }
+  @media(min-width: $screen-md) {
+    margin-bottom: 25px;
+  }
+}
+
+.percent {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.percent-symbol {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 11px;
+}
+
+.percent-txt {
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  left: 80px;
+  top: 18px;
+}
+
+//Scrollbar
+.scrollbox::-webkit-scrollbar {
+  width: 6px;
+  background-color: $scrollbar-bg;
+  border-radius: 10px;
+}
+
+.scrollbox::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: $scrollbar-bg;
+}
+
+.scrollbox::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ff007a;
+}
+
+//Show Your Support button
+.showsupport-btn {
+  height: 60px;
+  background-color: $brand-pink;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: $white;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.showsupport-btn:link,
+.showsupport-btn:visited,
+.showsupport-btn:hover,
+.showsupport-btn:active {
+  text-decoration: none;
+  color: $white;
+}
+
+
+/* Image carousel */
+
+.carousel-container {
+  padding: 0 20px;
+}

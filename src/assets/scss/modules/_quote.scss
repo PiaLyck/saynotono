@@ -1,0 +1,71 @@
+.slide-quote {
+  background-color: #00bbff;
+  border: 12px solid #ffcc00;
+  padding-top: 25px;
+  height: 100%;
+  padding-bottom: 30px;
+  @media (min-width: $screen-sm) {
+    padding-bottom: 0;
+  }
+}
+
+.slick-slider {
+  margin-top: 55px;
+}
+
+.slick-slide .quote-img {
+  display: inline;
+}
+
+.quote-container {
+  width: 75%;
+  margin: auto;
+}
+
+.quote {
+  font-size: 32px;
+  margin-bottom: 55px;
+}
+
+.quote-author {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.quote-company {
+  font-size: 16px;
+}
+
+.quotes-container {
+  @media (min-width: $screen-sm) {
+    margin-top:60px;
+  }
+  @media(min-width: $screen-md) {
+    padding-bottom: 0px;
+  }
+}
+
+.slick-next, .slick-prev{
+  width: 25px;
+  height: 60px;
+}
+
+.slick-next:before,
+[dir=rtl] .slick-prev:before {
+  content: url('../img/arrow-right.png');
+}
+
+.slick-prev:before {
+  content: url('../img/arrow-left.png');
+}
+
+.slick-next {
+  right: 15px;
+  @media (min-width: $screen-sm) {}
+}
+
+.slick-prev {
+  left: 15px;
+  z-index: 99;
+  @media (min-width: $screen-sm) {}
+}

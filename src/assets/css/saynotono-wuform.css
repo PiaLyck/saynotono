@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+html.embed {
+  background: transparent;
+}
+
+@media (min-width:0) and (max-width:509px){
+  form li.leftHalf, form li.rightHalf{
+    width: 100% !important;
+  }
+
+  input.btTxt{
+    padding: 18px 13px !important;
+  }
+}
+
+textarea.medium{
+height: 5em !important;;
+}
+
+.wufoo .info {
+  border: none;
+  padding: 0;
+  display: none;
+}
+
+.info h2 {
+	display: none;
+}
+
+form.wufoo {
+  padding: 0;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+}
+
+form li {
+  padding: 0;
+  margin-bottom: 14px;
+}
+.wufoo li.focused {
+  background: transparent !important;
+}
+form li.buttons {
+  padding: 0;
+  margin: 0;
+}
+
+.wufoo label.desc {
+  margin-bottom: 12px;
+  padding: 0;
+  font-weight: normal;
+  color: #333;
+  font-size: 16px;
+}
+form.wufoo li span.req {
+  color: #333 !important;
+  font-weight: normal;
+}
+
+/* input.large {
+	padding: 10px 5px !important;
+} */
+.wufoo input.text,
+.wufoo textarea.textarea {
+	border: 1px solid #e0e0e0;
+  padding: 16px 14px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+  color: #333;
+  font-size: 16px;
+}
+.wufoo input.text:focus,
+.wufoo textarea.textarea:focus {
+  border: 1px solid #ff007f;
+  outline: none;
+  box-shadow: inset 2px 2px 6px 0px rgba(255, 0, 122, 0.15);
+}
+
+input.btTxt {
+	border: 0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 18px 40px;
+  background-color: #ff007f;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* success message */
+.confirm h2 {
+  color: #333;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+}
+.confirm h2:before {
+  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+  content: "Boom! You legend";
+  margin-bottom: 22px;
+  display: block;
+  text-align: center;
+}

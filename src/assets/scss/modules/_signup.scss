@@ -1,0 +1,48 @@
+// existing wuform CSS theme:
+// https://wuforms.s3.amazonaws.com/saynotono-wuform.css
+.slide-signup {
+  background-color: $brand-pink;
+  border: 12px solid #fc0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+
+  height: 100%;
+
+  @media (min-width: $screen-sm) {
+    padding-bottom: 0;
+  }
+}
+
+.signup-content {
+  margin: 0 .6rem;
+  padding-top:15px;
+}
+
+.signup-form-cnt {
+  background-color: white;
+  border-radius: .6rem;
+}
+.signup-form-scroll {
+  @media (min-width: $screen-sm) {
+    height: 40vh;
+    width: 99%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.signup-form {
+  margin: 0 0 10px 0;
+  padding: 15px 20px;
+}
+
+.signup-smallprint {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.slide-signup{
+  .sharethis-inline-share-buttons{
+    margin-top: -40px;
+  } 
+}

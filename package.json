@@ -1,0 +1,41 @@
+{
+  "name": "DT-Gulp-Boilerplate",
+  "version": "0.0.0",
+  "description": "Styleguide and clientside codebase.",
+  "author": "DT Sydney",
+  "devDependencies": {
+    "assemble": "^0.24.3",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.10.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-extname": "^0.2.2",
+    "gulp-flatten": "^0.2.0",
+    "gulp-header": "^1.5.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-markdown": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-prompt": "^0.1.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5",
+    "gulp-wrap": "^0.11.0",
+    "handlebars-helpers": "^0.9.7",
+    "node-bourbon": "^4.2.8",
+    "reframe.js": "^2.1.13",
+    "require-dir": "^0.3.0",
+    "slick-carousel": "^1.7.1",
+    "yargs": "^3.31.0"
+  },
+  "scripts": {
+    "commit": "node ./bin/commit.js"
+  }
+}

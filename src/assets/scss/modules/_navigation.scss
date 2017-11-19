@@ -1,0 +1,81 @@
+.mobile-menu {
+  position: absolute;
+  height: 100vh;
+  background-color: $brand-pink;
+  z-index: 4;
+  left: -100%;
+
+  h2 {
+    color: $white;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  .share-btn {
+    border-radius: 25px;
+    margin: 40px 0 15px 15px;
+    border: 1px solid $white;
+    padding-left: 10px;
+    bottom: 30px;
+    position: absolute;
+  }
+  .close-menu {
+    background: url('../img/icon-close-mobile.png') center/70% no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 55px;
+    right: 30px;
+  }
+}
+
+.is-showing {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#fp-nav {
+  display: none;
+  @media(min-width: $screen-sm) {
+    display: block;
+  }
+}
+
+.menu-btn {
+  height: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 140px;
+  font-size: 20px;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  padding: 0 20px;
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  span {
+    background: url('../img/icon-up-mobile.png') no-repeat center/60%;
+    width: 25px;
+    height: 27px;
+  }
+}
+
+.share-buttons{
+  position: absolute;
+  bottom: 55px;
+  left: 30px;
+}
