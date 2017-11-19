@@ -1,6 +1,6 @@
 /**
  * DT-Gulp-Boilerplate
  * @version v0.0.0
- * @timestamp 1505879794
+ * @timestamp 1511060932
  */
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);.info h2,.wufoo .info{display:none}.confirm h2,form.wufoo{font-family:'Work Sans',Helvetica,Arial,sans-serif}html.embed{background:0 0}textarea.medium{height:5em!important}.wufoo .info{border:none;padding:0}form.wufoo{padding:0}form li{padding:0;margin-bottom:14px}.wufoo li.focused{background:0 0!important}form li.buttons{padding:0;margin:0}.wufoo label.desc{margin-bottom:12px;padding:0;font-weight:400;color:#333;font-size:16px}form.wufoo li span.req{color:#333!important;font-weight:400}.wufoo input.text,.wufoo textarea.textarea{border:1px solid #e0e0e0;padding:16px 14px;border-radius:4px;box-sizing:border-box;background:#fff;color:#333;font-size:16px}.wufoo input.text:focus,.wufoo textarea.textarea:focus{border:1px solid #ff007f;outline:0;box-shadow:inset 2px 2px 6px 0 rgba(255,0,122,.15)}input.btTxt{border:0;width:100%;border-radius:4px;padding:18px 40px;background-color:#ff007f;color:#fff;font-size:16px;font-weight:500}.confirm h2{color:#333;font-size:16px;text-align:left}.confirm h2:before{color:#333;font-size:32px;font-weight:700;content:"Boom! You legend";margin-bottom:22px;display:block;text-align:center}@media (min-width:0) and (max-width:509px){form li.leftHalf,form li.rightHalf{width:100%!important}input.btTxt{padding:18px 13px!important}}

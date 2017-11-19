@@ -1,4 +1,4 @@
-# AQKA Gulp Boilerplate
+## Gulp Boilerplate
 
 Styleguide and codebase for all client-side code.
 
